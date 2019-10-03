@@ -1,0 +1,26 @@
+{
+  "version": "0.0.1",
+  "name": "gridsome-plugin-plausible",
+  "description": "Plausible analytics plugin for Gridsome",
+  "homepage": "https://github.com/botanicastudios/gridsome-plugin-plausible#readme",
+  "repository": "https://github.com/botanicastudios/gridsome-plugin-plausible",
+  "main": "gridsome.client.js",
+  "license": "MIT",
+  "files": [
+    "gridsome.client.js"
+  ],
+  "keywords": [
+    "gridsome",
+    "gridsome-plugin",
+    "plausible"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "plausible-vue": "^0.0.1"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
